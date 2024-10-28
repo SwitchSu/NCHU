@@ -1,5 +1,0 @@
-/images/course/child.jpg
-/images/course/made.png
-/images/course/sport.jpg
-/images/course/training.jpg
-/images/course/manager.jpg
