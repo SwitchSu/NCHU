@@ -1,0 +1,31 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 後台頁面容器 */
+.backend-container {
+  @apply max-w-7xl mx-auto py-6 space-y-6;
+}
+
+/* 後台卡片容器樣式 */
+.backend-card-container {
+  @apply relative overflow-x-auto flex flex-col gap-4 mx-auto sm:p-8 p-4 sm:rounded-lg bg-white shadow-sm;
+}
+
+/* 後台表格樣式 */
+.backend-table-border {
+  @apply overflow-x-auto rounded-[5px] text-xl;
+}
+
+/* 後台表格內容格樣式 */
+.backend-table-th {
+  @apply border border-gray-700 px-2 py-3;
+}
+
+.backend-table-td {
+  @apply border border-gray-700 px-2 py-2;
+}
